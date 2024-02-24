@@ -1,0 +1,18 @@
+{
+  "name": "recruit-tool-backend",
+  "version": "1.0.0",
+  "description": "Basic Recruiter Tool with Computed Score for Candidates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "recruit-tool-backend"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
