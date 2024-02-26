@@ -1,13 +1,13 @@
 const http = require('http');
 const express = require('express');
 const app = express();
-const candidateRoutes = require('./routes/candidates');
+const candidateRoutes = require('./routes/candidates.route');
 
-app.get('/status', (req, res) => {
-	res.send('Running Successfully!');
+app.get('/api/health-check', (req, res) => {
+	res.send({ success: true, message: 'Service is Running successfully' });
 });
 
-app.use('/candidates', candidateRoutes);
+require('./routes')(app);
 
 // Specify the port to listen on
 const port = 3000;

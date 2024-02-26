@@ -1,0 +1,9 @@
+{
+    "db": {
+        "database": "kwknoqnw",
+        "dialect": "postgresql",
+        "password": "RFA3l6uat_zZDV54G278M0fLAAkEXhLw",
+        "user": "kwknoqnw",
+        "host": "abul.db.elephantsql.com"
+    }
+}
